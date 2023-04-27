@@ -19,7 +19,7 @@ using UnityEngine.Serialization;
 
 namespace UnityEngine.ResourceManagement.ResourceProviders
 {
-    internal class DownloadOnlyLocation : LocationWrapper
+    public class DownloadOnlyLocation : LocationWrapper
     {
         public DownloadOnlyLocation(IResourceLocation location) : base(location)
         {

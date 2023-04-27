@@ -136,7 +136,7 @@ namespace UnityEngine.ResourceManagement.ResourceLocations
         }
     }
 
-    internal class LocationWrapper : IResourceLocation
+    public class LocationWrapper : IResourceLocation
     {
         IResourceLocation m_InternalLocation;
 
